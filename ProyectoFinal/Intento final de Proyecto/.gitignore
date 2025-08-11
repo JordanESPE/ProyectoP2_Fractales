@@ -1,0 +1,57 @@
+# Archivos de configuración del sistema
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribución / empaquetado
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Archivos de backup de editores
+*~
+*.swp
+*.swo
+.vscode/
+.idea/
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# Archivos de imagen temporales
+*.png
+*.jpg
+*.jpeg
+*.bmp
+*.tiff
+!example_images/
+
+# Logs
+*.log
+
+# Archivos de entorno virtual
+venv/
+env/
+ENV/
+
+# Variables de entorno
+.env
